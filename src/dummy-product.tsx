@@ -59,7 +59,7 @@ export const DUMMY_PRODUCTS = [
       id:'P7',
       image: BillyHarrington,
       title:'The exercises with Billy',
-      price: 0.00000000000000001,
+      price: 300,
       description:'Your last chance'
     }
 ];

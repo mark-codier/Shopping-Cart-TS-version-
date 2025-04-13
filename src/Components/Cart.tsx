@@ -18,7 +18,7 @@ export default function Cart(){
     <div id="cart">
       {cartCtx.items.length === 0 && <p>No items in the cart!</p>}
       {cartCtx.items.length > 0 && (
-        <ul id="cart-cartCtx.items">
+        <ul id="cart-items">
           {cartCtx.items.map((item) => {
             const formattedPrice = `$${item.price.toFixed(2)}`;
 
